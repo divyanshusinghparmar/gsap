@@ -109,7 +109,7 @@ const HamburgerBtn = styled.button`
 const MobileMenu = styled.div`
   display: none;
   @media Screen and (max-width: 48em) {
-    display: inline-block;
+    display:flex;
   }
 
   flex-direction: column;
